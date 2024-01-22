@@ -68,14 +68,14 @@
     <div class="container">
       <nav>
         <li class="default">
-          <a href="dashboard.php">
+          <a href="dashboard.html">
             <hr />
             <span class="material-symbols-outlined">dashboard</span>
             <h3>Dashboard</h3>
           </a>
         </li>
         <li class="default">
-          <a href="control.php">
+          <a href="control.html">
             <hr />
             <span class="material-symbols-outlined">valve</span>
             <h3>Control</h3>
@@ -89,7 +89,7 @@
           </a>
         </li>
         <li class="default">
-          <a href="menu.php">
+          <a href="menu.html">
             <hr />
             <span class="material-symbols-outlined">menu</span>
             <h3>Menu</h3>

@@ -36,7 +36,7 @@
             
                             mysqli_query($con, $query);
             
-                            header("Location: ../index.php");
+                            header("Location: ../index.html");
                             die;
                         }
                         echo "password does not match";

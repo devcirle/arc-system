@@ -1,16 +1,16 @@
 <div class="sidebar">
 
-  <a href="../views/index.php" class="active">
+  <a href="../views/index.html" class="active">
     <span class="material-symbols-outlined"> dashboard </span>
     <h3>Dashboard</h3>
   </a>
 
-  <a href="../views/control.php">
+  <a href="../views/control.html">
     <span class="material-symbols-outlined"> valve </span>
     <h3>Control</h3>
   </a>
 
-  <a href="../views/data.php">
+  <a href="../views/data.html">
     <span class="material-symbols-outlined"> monitoring </span>
     <h3>Data</h3>
   </a>

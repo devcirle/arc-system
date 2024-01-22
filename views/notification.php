@@ -29,19 +29,19 @@
             </div>
 
             <div class="sidebar">
-                <a href="index.php">
+                <a href="index.html">
                     <span class="material-symbols-outlined">
                         dashboard
                     </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="control.php">
+                <a href="control.html">
                     <span class="material-symbols-outlined">
                         valve
                     </span>
                     <h3>Control</h3>
                 </a>
-                <a href="data.php">
+                <a href="data.html">
                     <span class="material-symbols-outlined">
                         monitoring
                     </span>

@@ -26,7 +26,7 @@
 
                 mysqli_query($con, $query);
 
-                header("Location: menu.php");
+                header("Location: menu.html");
                 die;
             }
             echo "wrong password don't match";

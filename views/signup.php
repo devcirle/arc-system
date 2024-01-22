@@ -16,7 +16,7 @@
             
             mysqli_query($con, $query);
 
-            header("Location: menu.php");
+            header("Location: menu.html");
             die;
         } else {
             echo "Please enter your information";
