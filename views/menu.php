@@ -3,7 +3,7 @@
     include("../components/connection.php");
     include("../components/functions.php");
 
-    $user_data = check_login($con);
+    //$user_data = check_login($con);
 
 ?>
 
