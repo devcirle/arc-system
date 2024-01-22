@@ -1,0 +1,29 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+} */
+
+.data-input {
+    margin-bottom: 10px;
+}
+
+#uploadBtn {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.removeBtn {
+    margin-left: 10px;
+    padding: 4px 8px;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
