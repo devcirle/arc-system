@@ -1,0 +1,186 @@
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 0.6em;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+body {
+  /* background: url("/assets/images/watermark.png"); */
+  background-color: #f5f5fa;
+  font-family: "Clash Grotesk";
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-image: url("/assets/images/homepageBanner.png");
+  background-repeat: no-repeat;
+  /*background: url("/assets/images/homepageBanner.png") no-repeat
+    center center;*/
+  background-size: cover; /*or cover, depending on your preference */
+  opacity: 0.7; /* Adjust the transparency */
+  z-index: 0;
+  pointer-events: none; /* Ensures content is still interactable */
+}
+
+/* header nav {
+  position: fixed;
+  top: 0;
+  padding: 36px 36px 20px;
+  z-index: 20;
+} */
+
+.logo-container,
+.banner,
+.cta {
+  position: relative;
+  z-index: 1;
+}
+
+.banner .text {
+  border-radius: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #78c2e9;
+  opacity: 0.8;
+}
+
+.text h2,
+.text p {
+  opacity: 1 !important;
+}
+
+.logo-container,
+.watermark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container img {
+  /* margin-top: 5.875rem; */
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo-container h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+}
+
+.logo-container,
+.cta a {
+  background-color: #235c1e;
+  color: #ebebf0;
+}
+
+.text {
+  text-align: justify;
+}
+
+.banner img {
+  max-width: 25%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.banner p {
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  max-width: 60ch;
+}
+
+.banner,
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta a {
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 10rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+
+/* .cta a:hover {
+  background-color: #235c1e;
+} */
+
+/* 
+  get started button
+*/
+.custom-btn {
+  /* width: 130px;
+  height: 40px; */
+  /* color: #fff; */
+  /* border-radius: 5px; */
+  /* padding: 10px 25px; */
+  /* font-family: "Lato", sans-serif;
+  font-weight: 500; */
+
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1); */
+  outline: none;
+}
+
+.btn-15 {
+  text-decoration: none;
+  background: #05a127;
+  border: none;
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #2d7526;
+  border-radius: 8px;
+  /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1); */
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+  color: #fff;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
+}

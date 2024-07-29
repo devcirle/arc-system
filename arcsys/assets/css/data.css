@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100svw;
+  height: 100svh;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* flex-direction: row; */
+}
+
+/* .dt-scroll-body {
+  width: fit-content !important;
+} */
+
+@media screen and (max-width: 666px) {
+  .content {
+    display: inline;
+  }
+}

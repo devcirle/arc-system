@@ -1,0 +1,118 @@
+body {
+  background-color: #f5f5fa;
+  font-family: "Clash Grotesk";
+}
+
+h3,
+hr {
+  margin: 0;
+}
+
+ul {
+  /* padding-left: 4rem; */
+  padding: 0;
+  margin-top: 2.125rem;
+}
+
+a {
+  padding: 0;
+}
+
+ul li {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.active,
+.default {
+  height: 40px;
+}
+
+.active {
+  background-color: hsl(240, 33%, 97%, 80%);
+  /* background-color: green; */
+}
+
+.active hr {
+  height: 20px;
+  width: 10px;
+  border-style: none;
+  background-color: #235c1e;
+}
+
+.active a {
+  color: #235c1e;
+}
+
+.active-span {
+  padding-left: 3rem;
+}
+
+.default hr {
+  visibility: hidden;
+}
+
+.default-span {
+  padding-left: 3.5rem;
+}
+
+.container ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.container ul li a h3 {
+  font-weight: 500;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  gap: 1rem;
+}
+
+.brand img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.brand h3 {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  margin-left: 1.5rem;
+  background-color: white;
+  min-width: 14.313rem;
+  height: 100svh;
+  border-left: solid 1px #ebebf0;
+  border-right: solid 1px #ebebf0;
+}
+
+#title {
+  font-weight: 500;
+  min-height: 4rem;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}

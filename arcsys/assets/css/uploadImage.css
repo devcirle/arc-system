@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: #f5f5fa;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 30px auto;
+  /* border-radius: 100px; */
+  border: solid 2px black;
+}
+
+.image-container img {
+  z-index: -9;
+  /* border-radius: 100px; */
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* max-width: 100%; */
+  /* max-height: 200px; */
+  margin: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+/* label {
+  display: block;
+  position: relative;
+  background-color: #235c1e;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  padding: 18px 0;
+  border-radius: 5px;
+  margin: auto;
+  cursor: pointer;
+} */
+
+#dynamicInputs .data-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dynamicInputs .data-input input {
+  width: 180px;
+  background-color: white;
+  border: solid 1px #ebebf0;
+  color: black;
+}
+
+.labels {
+  border-style: none;
+  border-radius: 1.406rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 21.188rem;
+  height: 2.813rem;
+  /* background-color: #235c1e; */
+  background-color: #23681d;
+  color: white;
+}
+
+.data-input {
+  margin-top: 2rem;
+}
+
+.inputs {
+  width: 120px !important;
+}
+
+/* input {
+  color: white;
+  padding-left: 0 !important;
+  background-color: #23681d;
+  text-align: center;
+} */
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: solid 1px #ebebf0;
+  background-color: #ebebf0;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.sbmt-btn {
+  cursor: pointer;
+  padding: 0 !important;
+  margin-top: 2rem !important;
+  border-style: none !important;
+  border-radius: 1.406rem !important;
+  font-size: 0.875rem !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  width: 21.188rem !important;
+  height: 2.813rem !important;
+  /* background-color: #235c1e; */
+  background-color: #23681d !important;
+  color: white !important;
+  margin-bottom: 2rem !important;
+}
+
+.upload-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+}
+
+.initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

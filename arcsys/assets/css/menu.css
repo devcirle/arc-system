@@ -1,0 +1,96 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.profile img{
+	width: 150px;
+	border-radius: 75px;
+	border: solid 3px black;
+}
+
+.content button {
+  background-color: white;
+  width: 18.1875rem;
+  height: 2.25rem;
+  margin-top: 0.875rem;
+  font-size: 0.75rem;
+  text-align: left;
+  padding-left: 2.25rem;
+  border: 1px;
+  border-style: solid;
+  border-color: #ebebf0;
+  border-radius: 5px;
+}
+
+a {
+  cursor: pointer;
+}
+
+b {
+  font-weight: 500;
+}
+
+.top {
+  margin-top: 3rem;
+}
+
+.profiles {
+  margin-bottom: 3rem;
+}
+
+.explanation,
+.components,
+.profiles {
+  border-radius: 1rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.profile {
+  flex: 0 0 calc(50% - 0.5rem); /* 50% width minus half of the gap */
+  max-width: calc(50% - 0.5rem);
+}
+
+.about-btn {
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  /* cursor: pointer; */
+  background: #ebebf0;
+}
+
+.content .logout-btn {
+  cursor: pointer;
+  padding: 0;
+  background-color: #da352f;
+  height: 2.8125rem;
+  border-radius: 1.40625rem;
+  text-align: center;
+  color: white;
+  margin-top: 1.75rem;
+  border-style: none;
+}
+
+.logout-btn:hover {
+  background-color: #d52620;
+}

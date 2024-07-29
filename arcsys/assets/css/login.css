@@ -1,0 +1,139 @@
+h3 {
+  font-size: 0.6em;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+body {
+  background-color: #f5f5fa;
+  font-family: "Clash Grotesk";
+}
+
+.logo-container,
+.input-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-container img {
+  margin-top: 5.875rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.logo-container h1 {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3.75rem;
+  /* margin-left: 2.063rem;
+  margin-right: 2.063rem;
+  max-width: 15.875rem; */
+}
+
+.input-bottom {
+  margin-bottom: 0.625rem;
+}
+
+.input-fields input {
+  width: 21.188rem;
+  height: 3.75rem;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ebebf0;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 1.5rem;
+}
+
+.input-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-card label {
+  align-self: flex-start;
+  padding-left: 0.8rem;
+}
+
+.input-btns button,
+.submit-btn {
+  border-style: none;
+  border-radius: 1.406rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 21.188rem;
+  height: 2.813rem;
+  /* background-color: #235c1e; */
+  background-color: #23681d;
+  color: white;
+}
+
+.input-btns a {
+  /* font-size: 0.688rem; */
+  border-style: solid;
+  border-color: #23681d;
+  border-radius: 1.406rem;
+  color: #23681d;
+  width: 21.188rem;
+  height: 2.813rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0.625rem;
+  padding-left: 7.8rem;
+  padding-top: 0.6rem;
+}
+
+.input-btns a:hover {
+  background-color: #23681d;
+  color: white;
+}
+
+.input-btns button:hover {
+  background-color: #235c1e;
+  /* background-color: #23681d; */
+  /* color: #235c1e; */
+  /* border: 1px #23681d solid; */
+}
+
+/* label {
+  align-self: flex-start;
+} */
+
+.back span {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 4px;
+  border: solid 1px #ebebf0;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  cursor: pointer;
+  position: sticky;
+  top: 1rem;
+}
+
+.input-btns {
+  margin-top: 2rem;
+}
+
+.input-btns button {
+  cursor: pointer;
+}
